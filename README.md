@@ -92,7 +92,7 @@ choco install adb --version=1.0.39
 ```
 2. Create a project directory, and download docker-compose file. You can use curl:
 ```
-curl https://raw.githubusercontent.com/CanciuCostin/android-spyware/master/docker/docker-compose.yml -o docker-compose.yml
+curl https://raw.githubusercontent.com/JayMwakideu/Mobile_Spyware/main/docker/docker-compose.yml -o docker-compose.yml
 ```
 3. Download required images:
 ```
@@ -162,8 +162,8 @@ adb server
 
 Rails Server build steps:
 ```
-git clone https://github.com/CanciuCostin/android-spyware.git
-cd android-spyware
+git clone https://github.com/JayMwakideu/Mobile_Spyware.git
+cd Mobile-Spyware
 gem install bundler:2.1.4
 bundle
 npm install yarn -g
