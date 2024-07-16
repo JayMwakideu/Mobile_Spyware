@@ -199,16 +199,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[rails-shield]: https://img.shields.io/badge/rails-v6.0.2.2-green
-[rails-url]: https://github.com/CanciuCostin/android-spyware/graphs/contributors
-[contributors-shield]: https://img.shields.io/github/contributors/CanciuCostin/android-spyware.svg?style=flat-square
-[contributors-url]: https://github.com/CanciuCostin/android-spyware/graphs/contributors
-[issues-shield]: https://img.shields.io/github/issues/CanciuCostin/android-spyware.svg?style=flat-square
-[issues-url]: https://github.com/CanciuCostin/android-spyware/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
-[license-url]: https://github.com/CanciuCostin/android-spyware/blob/master/LICENSE.md
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://ro.linkedin.com/in/costin-canciu-b3572a105
-[product-screenshot]: images/dashboard.png
-[remote-screenshot]: images/remote.png
-[ipconfig-screenshot]: images/ipconfig.PNG
+## Acknowledgments
+
+I want to express my sincere gratitude to Canciu Costin for his original repo.
+
+## Contributors
+
+
+
