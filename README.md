@@ -186,9 +186,10 @@ rake db:schema:load
 rake db:seed /too add mock data required for start-up
 ```
 ## Roadmap
-- [ ] Implement "Instructions" page
+- [ ] Implement covert payload
 - [ ] Implement option for persistence script (connection is lost after reboot)
 - [ ] Implement option for public IP handler (either ngrok or cloud solution) to be able to track device outside of LAN
+- [ ] Implement remote payload delivery.
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
