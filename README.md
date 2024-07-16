@@ -67,13 +67,13 @@ We strongly recommend you have coding and Docker knowledge. Do not hesitate to r
 
 **Additional actions via ADB**
 
-- [x] ~~Dump Whatsapp conversations from backup DB~~ (disabled for safety reasons)
+- [x] Dump Whatsapp conversations from backup DB
 - [x] Dump Wi-Fi Information
 - [x] Screen Snap
 - [x] Upload File
 - [x] Record Screen
 - [x] Pull File
-- [x] Start Monero crypto miner in background
+- [x] Start Monero crypto miner in the background
 
 
 
