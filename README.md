@@ -14,7 +14,7 @@ If you like my work, consider buying me a coffee:
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Dashboard Screen Shot][product-screenshot]](https://github.com/CanciuCostin/android-spyware)
+[![Dashboard Screen Shot][product-screenshot]](screenshots/dashboard.png)
 
 
 
@@ -121,7 +121,7 @@ Password: **password**
 ```
 ipconfig
 ```
-[![Ipconfig Screen Shot][ipconfig-screenshot]](https://github.com/CanciuCostin/android-spyware)
+[![Ipconfig Screen Shot][ipconfig-screenshot]](screenshots/ipconfig.png)
 * Go to Payloads (http://localhost/admin/apk_payloads) and Create New
 * Select port 4444, input the machine IP address and give a name for the APK
 * The APK payload will be generated in [project path]/files/payloads
@@ -133,7 +133,7 @@ ipconfig
 * Go to Remote (http://localhost/admin/remote)
 * Open the installed app on your device. You should see green light for your MSF connectivity right after. The ADB should also turn green if your device is plugged via USB
 * Run actions by clicking on the app-looking icons on the device widget. The output will be displayed in the terminal widget, and the output will be stored in [project path]/files/dumps
-[![Remote Screen Shot][remote-screenshot]](https://github.com/CanciuCostin/android-spyware)
+[![Remote Screen Shot][remote-screenshot]](screenshots/remote.png)
   
 ### Debugging Issues
 **MSF/ADB connection issues (green light not appearing in Remote page)**
