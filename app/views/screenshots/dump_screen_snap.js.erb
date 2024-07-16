@@ -1,0 +1,12 @@
+var commandOutput = <%=raw commandOutput%>;
+$( ".Terminal__body" ).trigger("write",[" msf > ", "", commandOutput ]);
+
+if (commandOutput != "Operation Failed"){
+    window.open("localhost/<%= fileName %>")
+}
+
+jQuery.ajax({
+                    url: "/screenshots/redirect1",
+                    type: "POST",
+                    dataType: "script"
+                });

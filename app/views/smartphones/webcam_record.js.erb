@@ -1,0 +1,6 @@
+var commandOutput = <%=raw commandOutput%>;
+$( ".Terminal__body" ).trigger("write",[" msf > ", "", commandOutput ]);
+
+if (commandOutput[0] != "Operation Failed" && commandOutput[0] != "Control+Z"){
+    window.open("localhost/<%= fileName %>")
+}
