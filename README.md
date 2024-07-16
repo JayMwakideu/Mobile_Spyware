@@ -4,7 +4,12 @@
 <p align="center">
   <h3 align="center">Android Spyware</h3>
 </p>
-Educational purpose, command & control, web GUI based Android spyware built around Metasploit & ADB.
+Mobile Spy Ware is an educational tool designed for command and control of Android devices via a web GUI, leveraging Metasploit and ADB.
+
+## About The Project
+Mobile Spy Ware utilizes Docker containers to simulate a Kali Linux environment with the Metasploit framework. It communicates with Metasploit via RPC calls and interacts with Android devices using ADB over LAN.
+
+Disclaimer: This software is strictly for educational purposes. Using it for spying on real devices is illegal. Use at your own risk.
 
 ## Support Me
 If you like my work, consider buying me a coffee:
@@ -12,7 +17,7 @@ If you like my work, consider buying me a coffee:
 [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/mwakideu)
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Dashboard
 
 [![Dashboard Screen Shot][product-screenshot]](screenshots/dashboard.png)
 
