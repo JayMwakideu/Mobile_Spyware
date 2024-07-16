@@ -190,7 +190,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-costin.canciu@gmail.com
+[Linkedln](https://www.linkedin.com/in/jaymwakideu/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
