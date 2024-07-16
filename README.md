@@ -2,9 +2,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">Android Spyware</h3>
+  <h3 align="center">Mobile Spyware</h3>
 </p>
-Mobile Spy Ware is an educational tool designed for command and control of Android devices via a web GUI, leveraging Metasploit and ADB.
+Mobile SpyWare is an educational tool designed for the command and control of Android devices via a web GUI, leveraging Metasploit and ADB.
 
 ## About The Project
 Mobile Spy Ware utilizes Docker containers to simulate a Kali Linux environment with the Metasploit framework. It communicates with Metasploit via RPC calls and interacts with Android devices using ADB over LAN.
@@ -24,14 +24,14 @@ If you like my work, consider buying me a coffee:
 
 
 The tool:
-* Uses Docker containers to simulate a Kali Linux environment with the metasploit framework
+* Uses Docker containers to simulate a Kali Linux environment with the Metasploit framework
 * Uses RPC calls to communicate with the Metasploit framework API
 * Uses ADB to install the payload on the target device & implement additional functionalities (the device must be in the same LAN)
 
 ### Disclaimer
-This software is for educational purposes only. Using the tool for spying real devices is strictly illegal. USE THE SOFTWARE AT YOUR OWN RISK. THE AUTHOR ASSUMES NO RESPONSIBILITY FOR YOUR USAGE.
+This software is for educational purposes only. Using the tool for spying on real devices is strictly illegal. USE THE SOFTWARE AT YOUR OWN RISK. THE AUTHOR ASSUMES NO RESPONSIBILITY FOR YOUR USAGE.
 
-We strongly recommend you to have coding and Docker knowledge. Do not hesitate to read the source code and understand the mechanism of the tool.
+We strongly recommend you have coding and Docker knowledge. Do not hesitate to read the source code and understand the mechanism of the tool.
 ### Built With
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
