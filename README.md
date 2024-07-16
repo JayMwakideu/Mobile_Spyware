@@ -4,6 +4,7 @@
 <p align="center">
   <h3 align="center">Android Spyware</h3>
 </p>
+Educational purpose, command & control, web GUI based Android spyware built around Metasploit & ADB.
 
 ## Support Me
 If you like my work, consider buying me a coffee:
@@ -15,7 +16,7 @@ If you like my work, consider buying me a coffee:
 
 [![Dashboard Screen Shot][product-screenshot]](https://github.com/CanciuCostin/android-spyware)
 
-Educational purpose, command & control, web GUI based Android spyware built around Metasploit & ADB.
+
 
 The tool:
 * Uses Docker containers to simulate a Kali Linux environment with the metasploit framework
