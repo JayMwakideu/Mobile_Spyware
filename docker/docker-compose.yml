@@ -14,7 +14,7 @@ services:
     tty: true
     environment:
       ADB_HOST: gateway.docker.internal
-      MAPS_API_KEY: AIzaSyBEZZDBVW3-6qznvOhooOjdpZ28dP86ed0
+      MAPS_API_KEY: AIzaSyBEZZDBVW3-6qznvOhooOjdpZ28dP86ed5
   db:
     image: jaymwakideu/postgres-db-server:latest
     ports:
