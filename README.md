@@ -19,7 +19,7 @@ If you like my work, consider buying me a coffee:
 <!-- ABOUT THE PROJECT -->
 ## Dashboard
 
-[Dashboard Screen Shot](screenshots/dashboard.png)
+(screenshots/dashboard.png)
 
 
 
